@@ -1,5 +1,5 @@
 # Parenthesis
 
 ## Why Parenthesis?
-It's inspired by brackets editor.  
-Brackets [] Parenthesis ()
+It's inspired by the brackets editor.  
+[Brackets] (Parenthesis)

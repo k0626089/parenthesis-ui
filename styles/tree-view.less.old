@@ -32,19 +32,3 @@
 .directory  .header {
   color: @tree-view-folder-color;
 }
-
-.list-tree.has-collapsable-children .list-nested-item > .list-item::before {
-  left: 0px;
-  content: "▶";
-  font-size: 6.5px;
-  margin-right: 4px;
-  transform: rotate(90deg);
-}
-
-.list-tree.has-collapsable-children .list-nested-item.collapsed > .list-item::before {
-  left: 6px;
-  content: "▶";
-  font-size: 6.5px;
-  margin-right: 4px;
-  transform: none;
-}

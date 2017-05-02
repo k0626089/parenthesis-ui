@@ -14,12 +14,13 @@
     background-color: @button-background-color-hover;
   }
   &:active {
-    color: fade(@text-color-selected, 66%);
+    //color: fade(@text-color-selected, 66%);
     background-color: darken(@button-background-color, 2%);
   }
   &.selected {
-    color: @text-color-selected;
+    //color: @text-color-selected;
     background-color: @button-background-color-selected;
+    box-shadow: 0 2px 8px 1px hsla(0,0%,0%,.6);
   }
   &:focus,
   &:focus:active {

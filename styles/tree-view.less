@@ -16,9 +16,10 @@
   color: @text-color;
   background-color: @tree-view-background-color;
 
-  .list-item.selected {
-    color: @text-color-selected;
-  }
+  .selected:before {
+      background: @background-color-selected;
+      box-shadow: inset 0px 1px 2px rgba(0,0,0,0.35);
+	}
 }
 
 // Remove icons

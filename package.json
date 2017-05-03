@@ -1,7 +1,7 @@
 {
   "name": "parenthesis-ui",
   "theme": "ui",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Brackets inspired theme for atom.",
   "keywords": [
     "ui",

@@ -6,7 +6,7 @@
 
 .status > .header.list-item { color: @text-color; }
 .status-added > .header.list-item { color: @text-color-success; } // green
-.status-ignored > .header.list-item { color: @text-color-subtle; }  // faded
+.status-ignored > .header.list-item { color: darken(@text-color-subtle, 15%); }  // faded
 .status-modified > .header.list-item { color: @text-color-warning; } // orange
 .status-removed > .header.list-item { color: @text-color-error; }   // red
 .status-renamed > .header.list-item { color: @text-color-info; }    // blue

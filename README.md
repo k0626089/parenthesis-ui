@@ -17,7 +17,7 @@ But here's how it looks now anyways.
 <img src="https://github.com/k0626089/parenthesis-ui/raw/master/assets/images/ScreenShot.png" width="700">
 
 ## Icons
-<img src="https://github.com/k0626089/parenthesis-ui/raw/master/assets/icons/icon.png" width="150">
+<img src="https://github.com/k0626089/parenthesis-ui/raw/master/assets/images/icon.png" width="150">
 
 You can get the Parenthesis icon for [mac](https://github.com/k0626089/parenthesis-ui/raw/master/assets/icons/icon.icns) and [windows](https://github.com/k0626089/parenthesis-ui/raw/master/assets/icons/icon.ico)
 

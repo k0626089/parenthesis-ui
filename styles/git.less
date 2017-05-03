@@ -3,19 +3,16 @@
 // -------------------
 
 // Used to color git status
-/*
+
 .status > .header.list-item { color: @text-color; }
 .status-added > .header.list-item { color: @text-color-success; } // green
 .status-ignored > .header.list-item { color: @text-color-subtle; }  // faded
 .status-modified > .header.list-item { color: @text-color-warning; } // orange
 .status-removed > .header.list-item { color: @text-color-error; }   // red
 .status-renamed > .header.list-item { color: @text-color-info; }    // blue
-*/
 
-li.directory.entry.list-nested-item.expanded.status-modified {
-	/**/
-}
-
-.status-modified > .header.list-item {
-	color: @text-color-warning;
-}
+li.directory.entry.list-nested-item.expanded.status-added { }
+li.directory.entry.list-nested-item.expanded.status-ignored { }
+li.directory.entry.list-nested-item.expanded.status-modified { }
+li.directory.entry.list-nested-item.expanded.status-removed { }
+li.directory.entry.list-nested-item.expanded.status-renamed { }

@@ -24,5 +24,5 @@ You can get the Parenthesis icon for [mac](https://github.com/k0626089/parenthes
 ## Who are you?
 I am a student. Studying Computer Science at Hanyang Univ.
 
-### Well.. what else is there to say.. Enjoy the theme!
+#### Well.. what else is there to say.. Enjoy the theme!
 I'll try my best to complete the theme asap :)

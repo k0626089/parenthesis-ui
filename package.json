@@ -8,7 +8,8 @@
     "theme",
     "brackets",
     "flat",
-    "dark"
+    "dark",
+    "web"
   ],
   "repository": "https://github.com/k0626089/parenthesis-ui",
   "license": "MIT",

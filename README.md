@@ -1,5 +1,6 @@
-# Parenthesis
-Parenthesis is a theme inspired by brackets for atom.
+<img src="https://github.com/k0626089/parenthesis-ui/raw/master/assets/images/title.png" width="500">
+
+### Brackets inspired theme for atom
 
 ## Why Parenthesis?
 It's inspired by the brackets editor.  
@@ -20,6 +21,5 @@ But here's how it looks now anyways.
 ## Who are you?
 I am a student. Studying Computer Science at Hanyang Univ.
 
-#### Enjoy the theme!
-
+### Enjoy the theme!
 I'll try my best to complete the theme asap :)

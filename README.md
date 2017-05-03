@@ -3,7 +3,7 @@ Parenthesis is a theme inspired by brackets for atom.
 
 ## Why Parenthesis?
 It's inspired by the brackets editor.  
-[ Brackets ]  ( Parenthesis )
+#### Brackets [] Parenthesis ()
 
 ## Current state?
 Well, it's far from complete.

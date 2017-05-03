@@ -1,4 +1,4 @@
-<img src="https://github.com/k0626089/parenthesis-ui/raw/master/assets/images/title.png" width="500">
+<img src="https://github.com/k0626089/parenthesis-ui/raw/master/assets/images/title.png" width="330">
 
 ### Brackets inspired theme for atom
 

@@ -36,9 +36,7 @@
   color: @tree-view-folder-color;
 }
 
-// Folder dropdown icons
-
-.list-tree.has-collapsable-children .list-nested-item > .list-item::before {
+.directory.entry.list-nested-item.expanded > .list-item::before {
   left: -1px;
   content: "▶";
   font-size: 6.5px;
@@ -46,7 +44,7 @@
   transform: rotate(90deg);
 }
 
-.list-tree.has-collapsable-children .list-nested-item.collapsed > .list-item::before {
+.directory.entry.list-nested-item.collapsed > .list-item::before {
   left: 6px;
   content: "▶";
   font-size: 6.5px;

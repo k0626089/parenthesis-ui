@@ -23,12 +23,13 @@
 .list-item {
 	&.status-added { color: @text-color; .virtical-status-bar(@text-color-success); }
 	&.status-modified { color: @text-color; .virtical-status-bar(@text-color-warning); }
+	//&.status-ignored > span{ color: darken(@text-color-subtle, 15%); }
 	&.status-removed { color: @text-color; .virtical-status-bar(@text-color-error); }
 	&.status-renamed { color: @text-color; .virtical-status-bar(@text-color-info); }
 }
 .status > .header.list-item { color: @text-color; }
 .status-added > .header.list-item { color: @text-color-success; }
-.status-ignored > .header.list-item { color: darken(@text-color-subtle, 15%); }
+//.status-ignored > .header.list-item { color: darken(@text-color-subtle, 15%); }
 .status-modified > .header.list-item { color: @text-color-warning; }
 .status-removed > .header.list-item { color: @text-color-error; }
 .status-renamed > .header.list-item { color: @text-color-info; }

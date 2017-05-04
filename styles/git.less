@@ -4,6 +4,28 @@
 
 // Used to color git status
 
+.virtical-status-bar(@color) {
+	&:after {
+		left: -9px;
+		float: left;
+		width: 2.5px;
+		height: 12px;
+		content: "";
+		position: relative;
+		margin-top: 6.3px;
+		margin-right: -13px;
+		box-shadow: 0px 1px 2px rgba(0,0,0,0.45);
+		border-radius: 20%;
+		background-color: @color;
+	}
+}
+
+.list-item {
+	&.status-added { color: @text-color; .virtical-status-bar(@text-color-success); }
+	&.status-modified { color: @text-color; .virtical-status-bar(@text-color-warning); }
+	&.status-removed { color: @text-color; .virtical-status-bar(@text-color-error); }
+	&.status-renamed { color: @text-color; .virtical-status-bar(@text-color-info); }
+}
 .status > .header.list-item { color: @text-color; }
 .status-added > .header.list-item { color: @text-color-success; }
 .status-ignored > .header.list-item { color: darken(@text-color-subtle, 15%); }
@@ -11,8 +33,10 @@
 .status-removed > .header.list-item { color: @text-color-error; }
 .status-renamed > .header.list-item { color: @text-color-info; }
 
-.directory.entry.list-nested-item.expanded.status-added { color: @text-color; }
-.directory.entry.list-nested-item.expanded.status-ignored { color: @text-color; }
-.directory.entry.list-nested-item.expanded.status-modified { color: @text-color; }
-.directory.entry.list-nested-item.expanded.status-removed { color: @text-color; }
-.directory.entry.list-nested-item.expanded.status-renamed { color: @text-color; }
+.directory.entry.list-nested-item.expanded {
+	&.status-added { color: @text-color; }
+	&.status-ignored { color: @text-color; }
+	&.status-modified { color: @text-color; }
+	&.status-removed { color: @text-color; }
+	&.status-renamed { color: @text-color; }
+}

@@ -1,7 +1,15 @@
 .modal.overlay.from-top {
+	color: @text-color-dark;
 	font-family: @main-font;
-	background: @background-color-highlight;
+	background: #DFE2E2;
+	border-radius: 0% 0% 1% 1%;
 }
+
+li.event.selected {
+		color: @text-color-dark;
+		background-color: darken(#DFE2E2, 10%);
+		&:before{ display: none; }
+	}
 
 .bottom { //	Search menu
 	color: @text-color-dark;
@@ -21,6 +29,7 @@
 }
 .editor.mini.is-focused {
 	color: @text-color-dark;
+	border: 1px solid #60ABF2;
 	font-size: 12.5px;
 	font-family: @main-font;
 	background: #FFFFFF;

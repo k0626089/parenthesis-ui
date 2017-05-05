@@ -1,5 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 // UI Variables
 // -------------------
 
@@ -12,13 +10,20 @@
 // A good start is to change the color of the `@base-background-color` variable.
 
 // Font-family
-@main-font: 'Didact Gothic', sans-serif;
+@main-font: OpenSans-light, sans-serif;
+@font-path: 'atom://parenthesis-ui/assets/fonts/OpenSans-Light.ttf';
+@font-face {
+    font-family: OpenSans-light;
+    font-weight: light;
+    font-style: normal;
+    src: url(@font-path);
+  }
 
 // Text Colors
-@text-color:           hsl(0,0%,76%);
-@text-color-subtle:    hsl(193, 7.9%, 65%);
+@text-color:           hsl(0,0%,95%);
+@text-color-subtle:    rgba(173, 185, 189, 100);;
 @text-color-highlight: hsl(0,0%,94%);
-@text-color-selected:  hsl(212,  79%, 70%);
+@text-color-selected:  rgba(146, 221, 253, 100);
 
 @text-color-info:    hsl(219,  79%, 66%);
 @text-color-success: hsl(140,  44%, 62%);
@@ -37,7 +42,7 @@
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: hsl(204,4%,24.5%);
+@base-background-color: rgba(60, 63, 65, 100);
 @base-border-color:     hsl(204,4%,24.5%);
 
 // Component colors
@@ -72,7 +77,9 @@
 
 @tree-view-background-color: @base-background-color;
 @tree-view-border-color:     @base-border-color;
-@tree-view-folder-color:    hsl(193, 7.9%, 65%);
+@tree-view-folder-color:    rgba(173, 185, 189, 100);
+
+@title-bar-color: rgba(190, 190, 190, 100);
 
 // Site colors
 @ui-site-color-1: hsl(208, 100%, 50%); // blue

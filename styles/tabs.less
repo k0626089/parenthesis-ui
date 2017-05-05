@@ -7,21 +7,20 @@
 
 .tab-bar {
   font-family: @main-font;
-  background-color: @tab-bar-background-color;
   border-bottom: 1px solid @base-border-color;
-
+  background-color: @tab-bar-background-color;
   .tab {
     color: darken(@text-color-subtle, 15%);
     height: @tab-height;
+    font-size: 11.5px;
     line-height: @tab-height;
-    font-size: @font-size;
     border-right: 1px solid @tab-border-color;
     background-color: @tab-background-color;
     &.active {
       color: @text-color-highlight;
       text-shadow: 0px 2px 2px #181818;
-      background-color: @tab-background-color-active;
       box-shadow: inset 0px 1px 2px rgba(0,0,0,0.35);
+      background-color: @tab-background-color-active;
     }
 
 

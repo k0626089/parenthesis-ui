@@ -28,12 +28,12 @@
 	&.status-renamed { color: @text-color; .virtical-status-bar(@text-color-info); }
 }
 
-.status > .header.list-item { color: @text-color; }
-.status-added > .header.list-item { color: @text-color-success; }
-//.status-ignored > .header.list-item { color: @tree-view-folder-color; }
-.status-modified > .header.list-item { color: @text-color-warning; }
-.status-removed > .header.list-item { color: @text-color-error; }
-.status-renamed > .header.list-item { color: @text-color-info; }
+.status > .header.list-item::before { color: @text-color; }
+.status-added > .header.list-item::before { color: @text-color-success; }
+.status-modified > .header.list-item::before { color: @text-color-warning; }
+.status-removed > .header.list-item::before { color: @text-color-error; }
+.status-renamed > .header.list-item::before { color: @text-color-info; }
+
 
 .directory.entry.list-nested-item.expanded {
 	&.status-added { color: @text-color; }

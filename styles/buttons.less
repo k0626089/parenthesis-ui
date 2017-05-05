@@ -31,10 +31,10 @@
 // Colored buttons -----------------------
 /*
 .btn.btn-primary { .btn-color(@background-color-info); }
-.btn.btn-info    { .btn-color(@background-color-info); }
+.btn.btn-info { .btn-color(@background-color-info); }
 .btn.btn-success { .btn-color(@background-color-success); }
 .btn.btn-warning { .btn-color(@background-color-warning); }
-.btn.btn-error   { .btn-color(@background-color-error); }
+.btn.btn-error { .btn-color(@background-color-error); }
 */
 
 .btn-color(@bg) {
@@ -59,7 +59,19 @@
 
 // Button Group -----------------------
 
-.btn-group {
+.btn.btn-next {
   color: @text-color-dark;
-  border: 1px solid #B2B5B5;
+  box-shadow: 0 0 0px 1px #B2B5B5;
+}
+.btn.btn-all {
+  color: @text-color-dark;
+  box-shadow: 0 0 0px 1px #B2B5B5;
+}
+.btn.disabled {
+  color: @text-color-dark;
+  box-shadow: 0 0 0px 1px #B2B5B5;
+}
+button.btn {
+  color: @text-color-dark;
+  box-shadow: 0 0 0px 1px #B2B5B5;
 }

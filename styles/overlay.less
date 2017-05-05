@@ -22,15 +22,46 @@ li.event.selected {
 .highlight { background: rgba(255,0,255,0);;}
 
 .editor.mini {
-	border: 1px solid #B2B5B5;
+	color: @text-color-dark;
 	font-size: 12.5px;
 	font-family: @main-font;
+	box-shadow: 0 0 0px 1px #B2B5B5;
 	background: #FFFFFF;
+
+	&::selection {
+	background:#f094b7;
+	color:#555;
+	}
+
+	&::-moz-selection {
+	background:#f094b7;
+	color:#555;
+	}
+
+	&::-webkit-selection {
+	background:#f094b7;
+	color:#555;
+	}
 }
 .editor.mini.is-focused {
 	color: @text-color-dark;
-	border: 1px solid #60ABF2;
 	font-size: 12.5px;
 	font-family: @main-font;
+	box-shadow: 0 0 0px 1px #60ABF2;
 	background: #FFFFFF;
+
+	&::selection {
+	background:#f094b7;
+	color:#555;
+	}
+
+	&::-moz-selection {
+	background:#f094b7;
+	color:#555;
+	}
+
+	&::-webkit-selection {
+	background:#f094b7;
+	color:#555;
+	}
 }

@@ -14,7 +14,7 @@ It's inspired by the brackets editor.
 Well, it's far from complete.
 But here's how it looks now anyways.  
 
-<img src="https://github.com/k0626089/parenthesis-ui/raw/master/assets/images/ScreenShot.new.png" width="700">
+<img src="https://github.com/k0626089/parenthesis-ui/raw/master/assets/images/ScreenShot.png" width="700">
 
 ## Icons
 <img src="https://github.com/k0626089/parenthesis-ui/raw/master/assets/images/icon.png" width="150">

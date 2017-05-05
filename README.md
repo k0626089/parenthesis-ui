@@ -21,6 +21,9 @@ But here's how it looks now anyways.
 
 You can get the Parenthesis icon for [mac](https://github.com/k0626089/parenthesis-ui/raw/master/assets/icons/icon.icns) and [windows](https://github.com/k0626089/parenthesis-ui/raw/master/assets/icons/icon.ico)
 
+## Furure plans
+I'm thinking of adding bright mode for syntax themes with white background.
+
 ## Who are you?
 I am a student. Studying Computer Science at Hanyang Univ.
 

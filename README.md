@@ -25,7 +25,9 @@ You can get the Parenthesis icon for [mac](https://github.com/k0626089/parenthes
 I'm thinking of adding bright mode for syntax themes with white background.
 
 ## Who are you?
-I am a student. Studying Computer Science at Hanyang Univ.
+I am a student. Studying Computer Science at Hanyang Univ.  
+
+[![Donate with Patreon](https://img.shields.io/badge/patreon-donate-green.svg)](https://www.patreon.com/user?u=6110845&utm_campaign=creatorshare&utm_medium=social&utm_source=twitter)
 
 #### Well.. what else is there to say.. Enjoy the theme!
 I'll try my best to complete the theme asap :)
